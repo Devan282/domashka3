@@ -1,0 +1,43 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+.headers{
+display: flex;
+flex-direction: row;
+justify-content: center
+}
+
+button:hover {
+ cursor:pointer;
+ background:azure;
+}
+
+button (
+font-family: Courier new, serif;
+font-weight: bold;
+
+margin-left: 200px;
+padding: 10px;
+background: white
+border: 5px solid teal;
+border-radius:20px;
+)
+
+.user_interfce {
+display: flex;
+flex-direction:column;
+justify-content: center;
+}
+
+.user_interfce p {
+font-family: Courier new, serif;
+text-align: center;
+text-shadow: orange 10px 5px 6px;
+}
+
+.dzn5 p {
+font-size: 24px;
+text-shadow:green 5px 5px 5px
+}
